@@ -1,0 +1,19 @@
+﻿<Window x:Class="AutomaticReportsProtoType.PromptWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        ResizeMode="NoResize"
+        Title="PromptWindow" Height="230" Width="300">
+    <Grid>
+        <Label Name="MessageFirst" FontSize="16" HorizontalAlignment="Left" Height="36" Margin="24,19,0,0" VerticalAlignment="Top" Width="243"/>
+        <Label Name="MessageSecond" FontSize="16" HorizontalAlignment="Left" Height="35" Margin="24,55,0,0" VerticalAlignment="Top" Width="243"  HorizontalContentAlignment="Center"/>
+        <Button Content="Yes" HorizontalAlignment="Left" Height="48" Margin="24,105,0,0" VerticalAlignment="Top" Width="108" Click="Yes_Button_Click"/>
+        <Button Content="No" HorizontalAlignment="Left" Height="48" Margin="159,105,0,0" VerticalAlignment="Top" Width="108" Click="No_Button_Click"/>
+
+        <StackPanel Margin="188,164,0,7">
+            <ProgressBar x:Name="ProgressBar" Minimum="0" Maximum="100" IsIndeterminate="True" Height="21" Margin="21,0,26,0"  Visibility="Collapsed" />
+        </StackPanel>
+        <Label x:Name="RetrieveBlacklistStatusLabel" Content="Retrieving blacklist from Cosmos:" HorizontalAlignment="Left" Height="35" Margin="21,160,0,0" VerticalAlignment="Top" Width="213" Visibility="Collapsed" />
+
+
+    </Grid>
+</Window>
