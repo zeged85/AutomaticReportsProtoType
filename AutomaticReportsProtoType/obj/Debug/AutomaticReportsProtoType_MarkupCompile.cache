@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Respos\Peronsal\AutomaticReportsProtoType\AutomaticReportsProtoType\obj\Debug\
+C:\AutomaticReportsProtoType\AutomaticReportsProtoType\obj\Debug\
 AutomaticReportsProtoType
 none
 false
 DEBUG;TRACE
-C:\Respos\Peronsal\AutomaticReportsProtoType\AutomaticReportsProtoType\App.xaml
+C:\AutomaticReportsProtoType\AutomaticReportsProtoType\App.xaml
 2-1783166410
 
 15-1075547997
 131569487696
 MainWindow.xaml;PromptWindow.xaml;
 
-False
+True
 
