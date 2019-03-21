@@ -80,18 +80,21 @@
 		</Label>
 
 		<Label Grid.Row="1" Content="Context:" HorizontalAlignment="Left" Height="25" Margin="11,41,0,0" VerticalAlignment="Top" Width="62"/>
-		<RadioButton Grid.Row="1" GroupName="InfoContextGroup" Content="Soilders" IsChecked="True" HorizontalAlignment="Left" Height="18" Margin="78,47,0,0" VerticalAlignment="Top" Width="71" Checked="Soilders_RadioButton_Checked"/>
+    <!-- Groups names -->
+    <RadioButton Grid.Row="1" GroupName="InfoContextGroup" Content="Soilders" IsChecked="True" HorizontalAlignment="Left" Height="18" Margin="78,47,0,0" VerticalAlignment="Top" Width="71" Checked="Soilders_RadioButton_Checked"/>
 		<RadioButton Grid.Row="1" GroupName="InfoContextGroup" Content="Equipment" HorizontalAlignment="Left" Height="18" Margin="154,47,0,0" VerticalAlignment="Top" Width="80" Checked="Equipment_RadioButton_Checked"/>
 		<RadioButton Grid.Row="1" GroupName="InfoContextGroup" Content="Onwerships" HorizontalAlignment="Left" Height="18" Margin="249,47,0,0" VerticalAlignment="Top" Width="80" Checked="Onwerships_RadioButton_Checked"/>
 
-		<Label Grid.Row="1" Name="SoilderIdLabel" Content="Soilder ID:" HorizontalAlignment="Left" Height="25" Margin="11,75,0,0" VerticalAlignment="Top" Width="105"/>
-		<Label Visibility="Collapsed" Grid.Row="1" Name="EquipmentIdLabel" Content="Equipment ID:" HorizontalAlignment="Left" Height="25" Margin="11,75,0,0" VerticalAlignment="Top" Width="105"/>
-		<Label Visibility="Collapsed" Grid.Row="1" Name="EquipmentIdAsSecondValueLabel" Content="Equipment ID:" HorizontalAlignment="Left" Height="25" Margin="11,112,0,0" VerticalAlignment="Top" Width="105"/>
-		<Label Grid.Row="1" Name="SoilderNameLabel" Content="Soilder Name:" HorizontalAlignment="Left" Height="25" Margin="11,112,0,0" VerticalAlignment="Top" Width="105"/>
-		<Label Visibility="Collapsed" Grid.Row="1" Name="EquipmentNameLabel" Content="Equipment Name:" HorizontalAlignment="Left" Height="25" Margin="11,112,0,0" VerticalAlignment="Top" Width="105"/>
+    <!-- Labels -->
+    <!-- Soilder Id --> <Label Grid.Row="1" Name="SoilderIdLabel" Content="Soilder ID:" HorizontalAlignment="Left" Height="25" Margin="11,75,0,0" VerticalAlignment="Top" Width="105"/>
+    <!-- Soilder Name --> <Label Grid.Row="1" Name="SoilderNameLabel" Content="Soilder Name:" HorizontalAlignment="Left" Height="25" Margin="11,112,0,0" VerticalAlignment="Top" Width="105"/>
+    <!-- Equipment Id --> <Label Visibility="Collapsed" Grid.Row="1" Name="EquipmentIdLabel" Content="Equipment ID:" HorizontalAlignment="Left" Height="25" Margin="11,75,0,0" VerticalAlignment="Top" Width="105"/>
+    <!-- Equipment Id as second value--> <Label Visibility="Collapsed" Grid.Row="1" Name="EquipmentIdAsSecondValueLabel" Content="Equipment ID:" HorizontalAlignment="Left" Height="25" Margin="11,112,0,0" VerticalAlignment="Top" Width="105"/>
+    <!-- Equipment Name --> <Label Visibility="Collapsed" Grid.Row="1" Name="EquipmentNameLabel" Content="Equipment Name:" HorizontalAlignment="Left" Height="25" Margin="11,112,0,0" VerticalAlignment="Top" Width="105"/>
 
-		<TextBox Grid.Row="1" Name ="TextBoxOne" HorizontalAlignment="Left" Height="25" Margin="112,75,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="243"/>
-		<TextBox Grid.Row="1" Name="TextBoxTwo" HorizontalAlignment="Left" Height="25" Margin="112,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="243" />
+    <!-- TextBoxs -->
+    <!-- 1 --> <TextBox Grid.Row="1" Name ="TextBoxOne" HorizontalAlignment="Left" Height="25" Margin="112,75,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="243"/>
+    <!-- 2 --> <TextBox Grid.Row="1" Name="TextBoxTwo" HorizontalAlignment="Left" Height="25" Margin="112,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="243" />
 
 		<Button Grid.Row="1" Name="AddSingleButton" Content="Add Item" HorizontalAlignment="Left" Height="38" Margin="11,567,0,0" VerticalAlignment="Top" Width="164" Click="Add_Single" />
 		<Button Grid.Row="1" Name="RemoveSingleButton" Content="Remove Item" HorizontalAlignment="Left" Height="38" Margin="187,567,0,0" VerticalAlignment="Top" Width="168" Click="Remove_Single"/>
