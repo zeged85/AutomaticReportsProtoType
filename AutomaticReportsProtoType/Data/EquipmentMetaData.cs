@@ -4,7 +4,7 @@
     {
         public EquipmentMetaData(string id, string name)
         {
-            this.Id = id; //makat22
+            this.Id = id; //makat
             this.Name = name;
         }
 
