@@ -55,6 +55,12 @@ namespace AutomaticReportsProtoType.ViewModel
                         MainWindow.SoilderMetaDataItems.ItemsSource = SoilderMetaDataTable;
                         break;
                     case EditContextMode.Equipment:
+                        var updatedEquipmentMetaDataTable = new List<EquipmentMetaData>(EquipmentMetaDataTable);
+                        updatedEquipmentMetaDataTable.Add(new EquipmentMetaData(firstValue, secondValue));
+                        DataLayerAdapter.WriteToEquipmentMetaDataTable(updatedEquipmentMetaDataTable);
+                        EquipmentMetaDataTable = new ObservableCollection<EquipmentMetaData>(updatedEquipmentMetaDataTable);
+                        MainWindow.EquipmentMetaDataItems.ItemsSource = null;
+                        MainWindow.EquipmentMetaDataItems.ItemsSource = EquipmentMetaDataTable;
                         break;
                     case EditContextMode.SoildersEquipmentMapping:
                         break;
