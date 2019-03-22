@@ -76,6 +76,7 @@
             foreach (var line in lines)
             {
                 var splittedLine = line.Split(',');
+                //need to be changed to lender and borrower
                 soilderEquipmentMappings.Add(new SoldierEquipmentMapping(splittedLine[0], splittedLine[1]));
             }
 

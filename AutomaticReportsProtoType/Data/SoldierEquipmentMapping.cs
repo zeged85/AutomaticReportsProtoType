@@ -5,6 +5,7 @@ namespace AutomaticReportsProtoType.Data
     {
         public SoldierEquipmentMapping(string soilderId, string equipmentId)
         {
+            //need to be fixed to lender and borrower
             this.SoilderId = soilderId;
             this.EquipmentId = equipmentId;
         }
